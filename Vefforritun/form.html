@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fill in Form</title>
+	</head>	
+	<body>
+		<h1>Student Information</h1>
+		<form>
+			<fieldset>
+				<legend>Personal</legend>
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name">
+				</div>
+				<div>
+					<label for="kt">SSN:</label>
+					<input type="text" id="kt" name="Social Security Number" maxlength="11">
+				</div>
+				<div>
+					<label for="mail">Email:</label>
+					<input type="email" id="mail" name="email">
+				</div>
+				<div>
+					<label for="pw">Password:</label>
+					<input type="password" id="pw" name="password">
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Details</legend>
+				<div>
+					Gender:<br/>
+					<input type="radio" id="fgen" name="Gender" value="Female">
+					<label for="fgen">Female</label>
+					<input type="radio" id="mgen" name="Gender" value="Male">
+					<label for="mgen">Male</label>
+				</div>
+				<div>
+					Are you a smoker: <br/>
+					<input type="checkbox" id="smoke" name="Smoke" value="Smoke">
+					<label for="smoke">I do smoke</label>
+				</div>
+				<div>
+					Which department are you currently studying?<br/>
+					<select id="degree" name="Degree of School">
+						<option value="1">---Select---</option>
+						<option value="2">Business</option>
+						<option value="3">Computer Science</option>
+						<option value="4">Law</option>
+						<option value="5">Science and Engineering</option>
+					</select>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>About me</legend>
+				<label for="info">More info about you:</label>
+				<textarea rows="7" cols="50" id="info" name="user info" placeholder="Type here..."></textarea>
+			</fieldset>
+		</form>
+	</body>
+</html>

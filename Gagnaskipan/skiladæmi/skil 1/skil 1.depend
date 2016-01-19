@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1452536215 source:c:\users\victorjakob\desktop\skoli\gagnaskipan\skiladæmi\skil 1\src\matrix.cpp
+	"Matrix.h"
+
+1452536442 c:\users\victorjakob\desktop\skoli\gagnaskipan\skiladæmi\skil 1\include\matrix.h
+
+1452536237 source:c:\users\victorjakob\desktop\skoli\gagnaskipan\skiladæmi\skil 1\main.cpp
+	<iostream>
+	<cstdlib>
+	"Matrix.h"
+

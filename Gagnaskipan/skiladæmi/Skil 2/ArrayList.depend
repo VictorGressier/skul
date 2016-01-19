@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1453203692 source:c:\users\victorjakob\desktop\skoli\gagnaskipan\gitrepo\2016-t-201-gski\verkefni\arraylist\arraylist.cpp
+	"arraylist.h"
+
+1453203615 c:\users\victorjakob\desktop\skoli\gagnaskipan\gitrepo\2016-t-201-gski\verkefni\arraylist\arraylist.h
+
+1453202015 source:c:\users\victorjakob\desktop\skoli\gagnaskipan\gitrepo\2016-t-201-gski\verkefni\arraylist\main.cpp
+	<iostream>
+	"arraylist.cpp"
+
+1453203692 c:\users\victorjakob\desktop\skoli\gagnaskipan\gitrepo\2016-t-201-gski\verkefni\arraylist\arraylist.cpp
+	"arraylist.h"
+
