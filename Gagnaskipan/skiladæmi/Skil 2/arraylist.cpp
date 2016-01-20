@@ -17,12 +17,13 @@ ArrayList<T>::~ArrayList()
 
 template<class T>
 void ArrayList<T>::append(T elem) {
-    if(currSize > maxSize) // List capacity exceeded
+    if(currSize >= maxSize)
     {
         getBiggerArr();
     }
-    arr[currSize] = elem;
+
     currSize++;
+    arr[currSize-1] = elem;
 }
 
 template<class T>
@@ -44,12 +45,12 @@ void ArrayList<T>::moveToStart() {
 
 template<class T>
 void ArrayList<T>::moveToEnd() {
-    currElemPos = currSize;
+    currElemPos = currSize-1;
 }
 
 template<class T>
 void ArrayList<T>::moveToPos(const int& pos) {
-    if(pos < currSize && pos > 0)
+    if(pos <= currSize && pos >= 0)           //breytt <=
     currElemPos = pos;
 }
 
@@ -74,41 +75,43 @@ void ArrayList<T>::getBiggerArr(){
     T* tmp = new T[newMaxSize];
     mergeArray(tmp);
     maxSize = newMaxSize;
+    delete[] tmp;
 }
 
 template<class T>
 void ArrayList<T>::mergeArray(T* tmp){
-    for(int i = 0; i< maxSize; i++){
+    for(int i = 0; i < maxSize; i++){
         tmp[i] = arr[i];
     }
+    delete[] arr;
     arr = tmp;
-    delete[]tmp;
 }
 
 template<class T>
 void ArrayList<T>::remove(){
-    for(int i = currElemPos; i<currSize-1; i++){
-        arr[i]=arr[i+1];
+    if(currElemPos<currSize)
+    {
+        for(int i = currElemPos; i<currSize-1; i++){
+            arr[i]=arr[i+1];
+        }
+        currSize--;
     }
-    currSize--;
 }
 
 template<class T>
 void ArrayList<T>::insert(const T& elem){
-    if(currSize==maxSize)
+    if(currSize >= maxSize)
         getBiggerArr();
 
-    currSize++;
-
     for(int i = currSize; i>currElemPos; i--){
-        arr[i+1]=arr[i];
+        arr[i]=arr[i-1];
     }
     arr[currElemPos]=elem;
+    currSize++;
 }
 
 template<class T>
 void ArrayList<T>::clear(){
     currSize=0;
-    currElemPos=0;
+    moveToStart();
 }
-
