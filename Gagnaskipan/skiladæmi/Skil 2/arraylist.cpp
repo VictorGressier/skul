@@ -1,5 +1,5 @@
 #include "arraylist.h"
-
+#include "assert.h"
 template<class T>
 ArrayList<T>::ArrayList(int size)
 {
@@ -21,15 +21,14 @@ void ArrayList<T>::append(T elem) {
     {
         getBiggerArr();
     }
-
+    arr[currSize] = elem;
     currSize++;
-    arr[currSize-1] = elem;
 }
 
 template<class T>
 void ArrayList<T>::next() {
     if (currElemPos < currSize)
-        currElemPos++;
+        currElemPos++;                              //--------------------------
 }
 
 template<class T>
@@ -45,12 +44,12 @@ void ArrayList<T>::moveToStart() {
 
 template<class T>
 void ArrayList<T>::moveToEnd() {
-    currElemPos = currSize-1;
+        currElemPos = currSize;
 }
 
 template<class T>
 void ArrayList<T>::moveToPos(const int& pos) {
-    if(pos <= currSize && pos >= 0)           //breytt <=
+    if(pos <= currSize && pos >= 0)
     currElemPos = pos;
 }
 
@@ -66,7 +65,8 @@ int ArrayList<T>::currPos() const {
 
 template<class T>
 T ArrayList<T>::value() const {
-        return arr[currElemPos];
+    assert(currElemPos >=0 &&  currElemPos < currSize); // No current element
+    return arr[currElemPos];
 }
 
 template<class T>
@@ -75,7 +75,6 @@ void ArrayList<T>::getBiggerArr(){
     T* tmp = new T[newMaxSize];
     mergeArray(tmp);
     maxSize = newMaxSize;
-    delete[] tmp;
 }
 
 template<class T>
@@ -102,7 +101,6 @@ template<class T>
 void ArrayList<T>::insert(const T& elem){
     if(currSize >= maxSize)
         getBiggerArr();
-
     for(int i = currSize; i>currElemPos; i--){
         arr[i]=arr[i-1];
     }

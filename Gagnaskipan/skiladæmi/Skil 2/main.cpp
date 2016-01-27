@@ -74,9 +74,9 @@ int main()
     int initialSize = readNum();
     ArrayList<int> myIntList(initialSize);
     testList(myIntList);
-/*
+
     initialSize = readNum();
     ArrayList<string> myStringList(initialSize);
-    testList(myStringList);*/
+    testList(myStringList);
     return 0;
 }
