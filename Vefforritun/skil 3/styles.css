@@ -1,0 +1,54 @@
+.redcolor
+{
+	color:rgb(189,35,35);
+}
+
+.centerright
+{
+	width:1024px;
+	text-align: right;
+	margin:0px auto;
+}
+
+.center
+{
+	width:1024px;
+	margin:0px auto;
+	text-align: left;
+}
+
+.grey
+{
+	background-color:rgb(240,240,240);
+	border-top:2px solid rgb(221, 221, 221);
+	border-bottom:2px solid rgb(221, 221, 221);
+	padding-top:25px;
+	padding-bottom:19px;
+}
+
+#leftside
+{
+	display:inline-block;
+	float:left;
+	clear:left;
+	margin-right:150px;
+}
+
+#rightside
+{
+	margin-top: 40px;
+}
+
+li
+{
+	list-style-type:none;
+	text-align:left;
+}
+
+.footertext
+{
+
+	display:inline-block;
+	padding-right:25px;
+	margin-top:50px;
+}
