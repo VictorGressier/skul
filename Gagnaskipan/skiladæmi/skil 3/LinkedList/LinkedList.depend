@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1454428404 source:c:\users\victor gressier\desktop\skóli\2016-t-201-gski\verkefni\linkedlist\main.cpp
+	<iostream>
+	"LinkedList.cpp"
+
+1454428677 c:\users\victor gressier\desktop\skóli\2016-t-201-gski\verkefni\linkedlist\linkedlist.cpp
+	"LinkedList.h"
+
+1454422532 c:\users\victor gressier\desktop\skóli\2016-t-201-gski\verkefni\linkedlist\linkedlist.h
+	"Node.h"
+
+1454422532 c:\users\victor gressier\desktop\skóli\2016-t-201-gski\verkefni\linkedlist\node.h
+	<iostream>
+
+1454428677 source:c:\users\victor gressier\desktop\skóli\2016-t-201-gski\verkefni\linkedlist\linkedlist.cpp
+	"LinkedList.h"
+
