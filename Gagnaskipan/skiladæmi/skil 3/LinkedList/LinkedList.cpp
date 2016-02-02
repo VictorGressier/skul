@@ -11,6 +11,18 @@ LinkedList<T>::LinkedList()         //breytti constructor
 template<class T>
 LinkedList<T>::LinkedList(LinkedList<T>& lis)
 {
+    header = new Node<T>;
+    trailer = new Node<T>;
+    init();
+    if(!(lis.empty()))
+    {
+        for(Node<T>* iter = lis.header->getNext();iter != lis.trailer; iter = iter->getNext())
+        {
+            T data = iter->getData();
+            append(data);
+        }
+    }
+
 
 }
 

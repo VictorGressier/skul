@@ -90,12 +90,12 @@ void testList(LinkedList<T>& theList) {
     print(theList);
 
     cout << "Copying list: " << endl;
-    //LinkedList<T> theList2(theList);
-    //print(theList2);
+    LinkedList<T> theList2(theList);
+    print(theList2);
 
     // Clear original list; should not affect the copy
     theList.clear();
-    //print(theList2);
+    print(theList2);
 }
 
 int main()
