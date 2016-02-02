@@ -1,6 +1,51 @@
+*
+{
+	font-family: arial;
+}
+
 .redcolor
 {
 	color:rgb(189,35,35);
+}
+
+.darkredcolor
+{
+	color:rgb(236,28,45);
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.greycolor
+{
+	color:grey;
+}
+
+#leftside > ul > li > a
+{
+	text-transform:uppercase;
+	text-decoration:none;
+	color:rgb(74,74,74);
+	
+}
+
+#leftside > ul > li
+{
+	margin-top:8px;
+	margin-bottom:8px;
+	margin-left:-40px;
+}
+
+#leftside > ul > li > a:hover
+{
+	color:red;
+	background-image: url(http://www.iconsdb.com/icons/preview/red/check-mark-12-xxl.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+    background-position: left bottom;
+	padding-left: 20px;
+    display:block;
+	margin-top:8px;
+	margin-bottom:8px;
 }
 
 .centerright
@@ -17,13 +62,18 @@
 	text-align: left;
 }
 
-.grey
+p
+{
+	margin-bottom:30px;
+}
+
+#greyheader
 {
 	background-color:rgb(240,240,240);
 	border-top:2px solid rgb(221, 221, 221);
 	border-bottom:2px solid rgb(221, 221, 221);
-	padding-top:25px;
-	padding-bottom:19px;
+	padding-top:40px;
+	padding-bottom:18px;
 }
 
 #leftside
@@ -31,12 +81,35 @@
 	display:inline-block;
 	float:left;
 	clear:left;
-	margin-right:150px;
+	width:300px;
 }
 
 #rightside
 {
 	margin-top: 40px;
+}
+
+.fixborder
+{
+	border:1px solid rgb(204,204,204);
+	width:200px;
+	height:30px;
+}
+
+select
+{
+	color:grey;
+	padding-left:10px;
+	border:1px solid rgb(204,204,204);
+	width:150px;
+	height:30px;
+}
+
+input[type="submit"]
+{
+	color:white;
+	background-color:grey;
+	padding:5px 15px;
 }
 
 li
@@ -45,10 +118,36 @@ li
 	text-align:left;
 }
 
+table
+{
+	width:70%;
+	height: 30px;
+	margin-top:20px;
+}
+
+table, tr
+{
+	border-collapse: collapse;	
+	border: 1px solid lightgrey;
+}
+
+th, td
+{
+	text-align:left;
+	padding: 15px 20px;
+}
+
 .footertext
 {
 
 	display:inline-block;
 	padding-right:25px;
-	margin-top:50px;
+	margin-top:20px;
+}
+
+footer
+{
+	border-top: 4px solid lightgrey;
+	margin-top:80px;
+	margin-left:-40px;
 }

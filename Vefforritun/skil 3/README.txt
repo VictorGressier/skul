@@ -1,0 +1,1 @@
+Google Chrome was used for testing.
