@@ -96,7 +96,6 @@ void testList(LinkedList<T>& theList) {
     // Clear original list; should not affect the copy
     theList.clear();
     //print(theList2);
-
 }
 
 int main()
@@ -104,8 +103,8 @@ int main()
     LinkedList<int> myIntList;
     testList(myIntList);
 
-   /* LinkedList<string> myStringList;
-    testList(myStringList);*/
+    LinkedList<string> myStringList;
+    testList(myStringList);
 
     return 0;
 }

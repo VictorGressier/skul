@@ -1,10 +1,10 @@
 #include "LinkedList.h"
 
 template<class T>
-LinkedList<T>::LinkedList()
+LinkedList<T>::LinkedList()         //breytti constructor
 {
-   header = new Node<T>(0,NULL,NULL);
-   trailer = new Node<T>(0,NULL,NULL);
+   header = new Node<T>;
+   trailer = new Node<T>;
    init();
 }
 
@@ -20,6 +20,7 @@ LinkedList<T>::~LinkedList()
     removeAll();
     delete header;
     delete trailer;
+
 }
 
 template<class T>
@@ -85,9 +86,11 @@ bool LinkedList<T>::empty() const
 }
 
 template<class T>
-void LinkedList<T>::append(T elem)
+void LinkedList<T>::append(T elem)      //if setning
 {
     insert(trailer, elem);
+    if(currNode==trailer)
+        currNode=trailer->getPrev();
 }
 
 template<class T>
@@ -106,7 +109,7 @@ T LinkedList<T>::remove()
     Node<T>* tmp = currNode;
     currNode = tmp->getNext();
     currNode->setPrev(tmp->getPrev());
-    tmp->getPrev()->setPrev(currNode);
+    tmp->getPrev()->setNext(currNode);          //setPrev var aður
 
     currSize--;
 
@@ -139,7 +142,7 @@ Node<T>* LinkedList<T>::getCurrNode() const
 template<class T>
 void LinkedList<T>::insert(Node<T>* beforeMe, const T& elem)
 {
-    Node<T>* newNode = new Node<T>(elem,beforeMe->getPrev(),beforeMe);
+    Node<T>* newNode = new Node<T>(elem,beforeMe, beforeMe->getPrev());         //flip beforeme
     beforeMe->getPrev()->setNext(newNode);
     beforeMe->setPrev(newNode);
 
@@ -147,13 +150,21 @@ void LinkedList<T>::insert(Node<T>* beforeMe, const T& elem)
 }
 
 template<class T>
-void LinkedList<T>::removeAll()
+void LinkedList<T>::removeAll()                                                 //new
 {
+    Node<T>* iter = header->getNext();
+    while(iter != trailer)
+    {
+        iter = iter->getNext();
+        delete iter->getPrev();
+    }
+
+    /*
     for(Node<T>* iter = header->getNext(); iter!=NULL; iter=iter->getNext())
     {
        if(iter->getPrev()!=header)
             delete iter->getPrev();
-    }
+    }*/
 }
 
 template<class T>
