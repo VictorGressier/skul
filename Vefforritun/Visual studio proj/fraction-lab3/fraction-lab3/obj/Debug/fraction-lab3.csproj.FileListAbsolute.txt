@@ -1,0 +1,6 @@
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\bin\Debug\fraction-lab3.exe.config
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\obj\Debug\fraction-lab3.csprojResolveAssemblyReference.cache
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\bin\Debug\fraction-lab3.exe
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\bin\Debug\fraction-lab3.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\obj\Debug\fraction-lab3.exe
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\Visual studio proj\fraction-lab3\fraction-lab3\obj\Debug\fraction-lab3.pdb
