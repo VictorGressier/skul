@@ -14,6 +14,8 @@ namespace schoolApp
             sch.addStudent(new Student { name = "Nonni", age = 22 });
             sch.addStudent(new Student { name = "Sigga", age = 23 });
             Console.WriteLine(sch);
-        }
+			Console.ReadKey();
+        }
+
     }
 }
