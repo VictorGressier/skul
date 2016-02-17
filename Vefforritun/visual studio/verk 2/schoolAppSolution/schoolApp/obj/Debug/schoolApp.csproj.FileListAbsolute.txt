@@ -10,3 +10,9 @@ C:\Users\Victor Gressier\Desktop\gitskoli\skul\Vefforritun\visual studio\verk 2\
 C:\Users\Victor Gressier\Desktop\gitskoli\skul\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\bin\Debug\schoolApp.exe
 C:\Users\Victor Gressier\Desktop\gitskoli\skul\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\bin\Debug\schoolApp.pdb
 C:\Users\Victor Gressier\Desktop\gitskoli\skul\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\obj\Debug\schoolApp.csprojResolveAssemblyReference.cache
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\bin\Debug\schoolApp.exe.config
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\obj\Debug\schoolApp.exe
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\obj\Debug\schoolApp.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\bin\Debug\schoolApp.exe
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\bin\Debug\schoolApp.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\Vefforritun\visual studio\verk 2\schoolAppSolution\schoolApp\obj\Debug\schoolApp.csprojResolveAssemblyReference.cache

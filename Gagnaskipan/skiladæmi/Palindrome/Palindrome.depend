@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1455531250 source:c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\recursion\palindrome\main.cpp
+	<iostream>
+	<cstring>
+	"palindrome.h"
+
+1455529578 c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\recursion\palindrome\palindrome.h
+
+1455531481 source:c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\recursion\palindrome\palindrome.cpp
+	"palindrome.h"
+

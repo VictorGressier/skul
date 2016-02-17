@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1015]D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll</TopNode>
+  <SelectedNode>[0-1015]D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1015]D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1016]SolitaireTest" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1006]SolitaireTest.CardCollectionTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1008]SolitaireTest.CardCollectionTest.TestAlternatingColors" />
+                <Node UniqueName="[0-1007]SolitaireTest.CardCollectionTest.TestUpdateLocation" />
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1011]SolitaireTest.CardTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1012]SolitaireTest.CardTest.TestCardConstructor" />
+                <Node UniqueName="[0-1014]SolitaireTest.CardTest.TestHitTesting" />
+                <Node UniqueName="[0-1013]SolitaireTest.CardTest.TestRedBlack" />
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1000]SolitaireTest.DeckTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1001]SolitaireTest.DeckTest.TestDeckConstructor" />
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1009]SolitaireTest.FlatPileTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1010]SolitaireTest.FlatPileTest.TestAddingCards" />
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1004]SolitaireTest.PileTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1005]SolitaireTest.PileTest.TestPileConstructor" />
+              </Nodes>
+            </Node>
+            <Node UniqueName="[0-1002]SolitaireTest.SuitPileTest" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1003]SolitaireTest.SuitPileTest.TestAddCards" />
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

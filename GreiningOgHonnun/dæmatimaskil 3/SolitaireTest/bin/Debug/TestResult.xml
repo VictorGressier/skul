@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll" total="9" failures="0" not-run="0" date="2008-12-25" time="10:02:36">
+  <environment nunit-version="2.4.6.0" clr-version="2.0.50727.3053" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug" machine-name="DABSLAPP2008" user="dabs" user-domain="DABSLAPP2008" />
+  <culture-info current-culture="is-IS" current-uiculture="en-US" />
+  <test-suite name="D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll" success="True" time="0.063" asserts="0">
+    <results>
+      <test-suite name="SolitaireTest" success="True" time="0.063" asserts="0">
+        <results>
+          <test-suite name="CardCollectionTest" success="True" time="0.031" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.CardCollectionTest.TestAlternatingColors" executed="True" success="True" time="0.016" asserts="4" />
+              <test-case name="SolitaireTest.CardCollectionTest.TestUpdateLocation" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="CardTest" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.CardTest.TestCardConstructor" executed="True" success="True" time="0.000" asserts="3" />
+              <test-case name="SolitaireTest.CardTest.TestHitTesting" executed="True" success="True" time="0.000" asserts="0" />
+              <test-case name="SolitaireTest.CardTest.TestRedBlack" executed="True" success="True" time="0.000" asserts="20" />
+            </results>
+          </test-suite>
+          <test-suite name="DeckTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.DeckTest.TestDeckConstructor" executed="True" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite name="FlatPileTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.FlatPileTest.TestAddingCards" executed="True" success="True" time="0.000" asserts="0" />
+            </results>
+          </test-suite>
+          <test-suite name="PileTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.PileTest.TestPileConstructor" executed="True" success="True" time="0.000" asserts="3" />
+            </results>
+          </test-suite>
+          <test-suite name="SuitPileTest" success="True" time="0.000" asserts="0">
+            <results>
+              <test-case name="SolitaireTest.SuitPileTest.TestAddCards" executed="True" success="True" time="0.000" asserts="4" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

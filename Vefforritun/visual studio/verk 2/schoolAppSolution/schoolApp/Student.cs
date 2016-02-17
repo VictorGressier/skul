@@ -9,7 +9,7 @@ namespace schoolApp
     class Student
     {
         public string name;
-        public int age;
+        public int age { get; }
 
         public override string ToString()
         {

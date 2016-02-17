@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitaire", "Solitaire\Solitaire.csproj", "{E873DFD5-2D3A-4154-B3D5-B11D0FF623ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolitaireTest", "SolitaireTest\SolitaireTest.csproj", "{949EAA35-FA21-4FFC-B9C0-BC08B8726997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E873DFD5-2D3A-4154-B3D5-B11D0FF623ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E873DFD5-2D3A-4154-B3D5-B11D0FF623ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E873DFD5-2D3A-4154-B3D5-B11D0FF623ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E873DFD5-2D3A-4154-B3D5-B11D0FF623ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{949EAA35-FA21-4FFC-B9C0-BC08B8726997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949EAA35-FA21-4FFC-B9C0-BC08B8726997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949EAA35-FA21-4FFC-B9C0-BC08B8726997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949EAA35-FA21-4FFC-B9C0-BC08B8726997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\ResolveAssemblyReference.cache
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.pdb
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.core.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.framework.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\Solitaire.exe
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.core.interfaces.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\log4net.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.framework.xml
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\Solitaire.pdb
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.dll
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.pdb
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.pdb
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.core.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.framework.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\Solitaire.exe
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.core.interfaces.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\log4net.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\nunit.framework.xml
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\bin\Debug\Solitaire.pdb
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\ResolveAssemblyReference.cache
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.dll
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.pdb
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.dll
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\SolitaireTest.pdb
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\Solitaire.exe
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\nunit.core.interfaces.dll
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\log4net.dll
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\nunit.framework.xml
+D:\Forritun\HR\Solitaire\SolitaireTest\bin\Debug\Solitaire.pdb
+D:\Forritun\HR\Solitaire\SolitaireTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Forritun\HR\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.dll
+D:\Forritun\HR\Solitaire\SolitaireTest\obj\Debug\SolitaireTest.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\SolitaireTest.dll
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\SolitaireTest.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\Solitaire.exe
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\nunit.core.interfaces.dll
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\log4net.dll
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\Solitaire.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\bin\Debug\nunit.framework.xml
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\obj\Debug\SolitaireTest.csprojResolveAssemblyReference.cache
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\obj\Debug\SolitaireTest.dll
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\SolitaireTest\obj\Debug\SolitaireTest.pdb

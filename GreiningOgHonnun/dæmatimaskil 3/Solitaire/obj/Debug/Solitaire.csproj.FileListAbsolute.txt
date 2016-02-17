@@ -1,0 +1,42 @@
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.MainWindow.resources
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.Properties.Resources.resources
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+D:\HR\Kennsla\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.SolitaireCtrl.resources
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.MainWindow.resources
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.Properties.Resources.resources
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.SolitaireCtrl.resources
+D:\HR\Kennsla\Eldra\2008-2-T-105-VERK\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\ResolveAssemblyReference.cache
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.MainWindow.resources
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.Properties.Resources.resources
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.SolitaireCtrl.resources
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
+D:\Forritun\HR\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+D:\Forritun\HR\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.AboutDialog.resources
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.DeckDialog.resources
+D:\Forritun\HR\Solitaire\Solitaire\obj\Debug\Solitaire.Solitaires.Klondike.KlondikeOptionsDialog.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.exe
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\bin\Debug\Solitaire.exe
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\bin\Debug\Solitaire.pdb
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.csprojResolveAssemblyReference.cache
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.AboutDialog.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.DeckDialog.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.MainWindow.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.Properties.Resources.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.SolitaireCtrl.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.Solitaires.Klondike.KlondikeOptionsDialog.resources
+C:\Users\VictorJakob\Desktop\gitskoli\GreiningOgHonnun\dæmatimaskil 3\Solitaire\obj\Debug\Solitaire.csproj.GenerateResource.Cache
