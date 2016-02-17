@@ -33,8 +33,11 @@ void Permutations::generate(int n) {
 // Prints all the permutations
 void Permutations::print() const
 {
-    // You have to implement this function.
-    // It should call the printSet function
+    for(NodePtr tmp = myPerms; tmp != NULL; tmp = tmp->next)
+    {
+        printSet(tmp->setPtr, tmp->setSize);
+    }
+    cout << endl;
 }
 
 // Private functions start here
@@ -70,18 +73,34 @@ void Permutations::insert(int num, NodePtr smaller, NodePtr& larger)
 // For each permutation of the smaller list, make a permutation (pointed to by 'larger')
 // that includes the number 'num' in each position
 
-// You have to implement this function, but it is partly given below.
+    NodePtr tmp = larger;
 
-    while (smaller != NULL) { // Traverse the 'smaller' list
+    while (smaller != NULL)
+    {
+        for (int i = 0; i <= smaller->setSize; i++)
+        {
+            int* arr = new int[num];
+            int ins = 1;
 
-        for (int i = 0; i <= smaller->setSize; i++) { // Iterate through the set.
+            for (int j = 0; j <= smaller->setSize; j++)
+            {
 
-            // Create a new set which is one larger than the current set and add 'num' in the correct pos
-            // This will become part of the list pointed to by 'larger'
-
-
-
+                if(i==j)
+                {
+                    arr[j]=num;
+                }
+                else
+                {
+                    arr[j]=ins;
+                    ins++;
+                }
+            }
+            tmp->setPtr = arr;
+            tmp->setSize = num;
+            tmp->next = new Node;
+            tmp = tmp->next;
         }
+        cout << "done!!";
         // Delete the node we just used, and move to the next one
         NodePtr next = smaller->next;
         remove(smaller);
@@ -93,6 +112,27 @@ void Permutations::insert(int num, NodePtr smaller, NodePtr& larger)
 // Recursive function that returns a list containing all of the permutations of the set
 NodePtr Permutations::permutate(int set[], int size)
 {
-    // You have to implement this function.
-    // It should call itself recursively and also call the insert function
+    NodePtr small;
+    NodePtr large;
+    if(size==1)
+    {
+        small = new Node;
+        small->setPtr=set;
+        small->setSize=1;
+        insert(size, small, large);
+        return large;
+    }
+    else
+    {
+        small->setSize = size-1;
+        small->setPtr = set;
+        permutate(set,size-1);
+        small = large;
+        insert(size,small, large);
+        return large;
+    }
 }
+
+
+
+

@@ -39,6 +39,7 @@ namespace MultiplicationTable
 
 
 			Console.WriteLine("</html>");
+			Console.ReadKey();
 		}
 	}
 }
