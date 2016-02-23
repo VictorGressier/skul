@@ -6,14 +6,16 @@ const int PENALTY = 1000;	// Used to assign a very high cost
 
 int jumpIt(const int board[], int startIndex, int endIndex)
 {
-    if(startIndex+2 >= endIndex)
+    if(startIndex >= endIndex)
         return board[endIndex];
-    else if (jumpIt(board, startIndex+1, endIndex) > jumpIt(board, startIndex+2, endIndex))
+
+    if (jumpIt(board, startIndex + 1, endIndex) < jumpIt(board, startIndex + 2, endIndex))
     {
-        return jumpIt(board, startIndex+2, endIndex) + board[startIndex+2];
+        return jumpIt(board, startIndex + 1, endIndex) + board[startIndex];
     }
     else
     {
-        return jumpIt(board, startIndex+1, endIndex) + board[startIndex+1];
+        return jumpIt(board, startIndex + 2, endIndex) + board[startIndex];
     }
 }
+

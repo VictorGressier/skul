@@ -33,11 +33,16 @@ void Permutations::generate(int n) {
 // Prints all the permutations
 void Permutations::print() const
 {
+    int i = 1;
     for(NodePtr tmp = myPerms; tmp != NULL; tmp = tmp->next)
     {
+
+        cout << i <<": ";
         printSet(tmp->setPtr, tmp->setSize);
+        i++;
+        cout << endl;
     }
-    cout << endl;
+
 }
 
 // Private functions start here
@@ -70,17 +75,14 @@ void Permutations::removeAll()
 
 void Permutations::insert(int num, NodePtr smaller, NodePtr& larger)
 {
-// For each permutation of the smaller list, make a permutation (pointed to by 'larger')
-// that includes the number 'num' in each position
-
-    NodePtr tmp = larger;
 
     while (smaller != NULL)
     {
         for (int i = 0; i <= smaller->setSize; i++)
         {
+            NodePtr tmp = larger;
             int* arr = new int[num];
-            int ins = 1;
+            int ins = 0;
 
             for (int j = 0; j <= smaller->setSize; j++)
             {
@@ -91,16 +93,16 @@ void Permutations::insert(int num, NodePtr smaller, NodePtr& larger)
                 }
                 else
                 {
-                    arr[j]=ins;
+                    arr[j]=smaller->setPtr[ins];
                     ins++;
                 }
             }
-            tmp->setPtr = arr;
-            tmp->setSize = num;
-            tmp->next = new Node;
-            tmp = tmp->next;
+            larger = new Node;
+            larger->setPtr = arr;
+            larger->setSize = num;
+            larger->next = tmp;
         }
-        cout << "done!!";
+
         // Delete the node we just used, and move to the next one
         NodePtr next = smaller->next;
         remove(smaller);
@@ -112,23 +114,27 @@ void Permutations::insert(int num, NodePtr smaller, NodePtr& larger)
 // Recursive function that returns a list containing all of the permutations of the set
 NodePtr Permutations::permutate(int set[], int size)
 {
-    NodePtr small;
-    NodePtr large;
+    NodePtr large = NULL;
     if(size==1)
     {
-        small = new Node;
-        small->setPtr=set;
-        small->setSize=1;
-        insert(size, small, large);
+        large = new Node;
+        int* arr = new int[1];
+        arr[0] = set[0];
+        large->setPtr = arr;
+        large->setSize = 1;
+        large->next = NULL;
         return large;
     }
     else
     {
-        small->setSize = size-1;
-        small->setPtr = set;
-        permutate(set,size-1);
-        small = large;
-        insert(size,small, large);
+        int* tmp = new int[size];
+        for (int i = 0; i < size; i++)
+        {
+            tmp[i] = set[i];
+        }
+        NodePtr small = permutate(tmp, size-1);
+        insert(size, small, large);
+        delete[]tmp;
         return large;
     }
 }
