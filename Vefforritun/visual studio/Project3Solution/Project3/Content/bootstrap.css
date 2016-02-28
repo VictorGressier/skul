@@ -26,13 +26,15 @@
 	float:left;
 	width:300px;
 	height:300px;
-	border-color:lightgray;
-	border-width:2px;
+	border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
 	padding:10px;
 	margin:10px;
 	position:relative;
 	
 }
+
 
 .form-group {
   margin-bottom: 15px;
@@ -2248,8 +2250,8 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-success {
   color: #ffffff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #0638b0;
+  border-color: #0638b0;
 }
 
 .btn-success:hover,
@@ -2288,9 +2290,10 @@ fieldset[disabled] .btn-success.active {
 }
 
 .btn-info {
-  color: #ffffff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  color: #0638b0;
+  background-color: #fff;
+  border-color: #fff;
+  margin:2px;
 }
 
 .btn-info:hover,

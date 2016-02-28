@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "Home Page";
 }
-<div class="font-verdana">
+<div class="font-verdana clearfix">
 	<div class="clearfix">
 		<h2 class="pull-left">
 			Products
@@ -12,23 +12,23 @@
 	</div>
 	<div class="menu-bar">
 		<ul class="list-unstyled">
-			<li class="pull-left">@Html.ActionLink("All Categories", "Index" , "Home", new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Books & Audible", "SortStuff", "Home", new { i=0}, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Movies, Music & Games", "SortStuff", "Home", new { i = 1 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Electronics & Computers", "SortStuff", "Home", new { i = 2 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Home, Garden & Tools", "SortStuff", "Home", new { i = 3 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Beauty, Health & Grocery", "SortStuff", "Home", new { i = 4 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Toys, Kids & Baby", "SortStuff", "Home", new { i = 5 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Clothing, Shoes & Jewelry", "SortStuff", "Home", new { i = 6 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Sport & Outdoors", "SortStuff", "Home", new { i = 7 }, new { @class = "btn btn-primary" })</li>
-			<li class="pull-left">@Html.ActionLink("Automotive & Industrial", "SortStuff", "Home", new { i = 8 }, new { @class = "btn btn-primary" })</li>
+			<li class="pull-left">@Html.ActionLink("All Categories", "Index" , "Home", new { @class = "btn btn-success" })</li>
+			<li class="pull-left">@Html.ActionLink("Books & Audible", "SortStuff", "Home", new { i=0}, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Movies, Music & Games", "SortStuff", "Home", new { i = 1 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Electronics & Computers", "SortStuff", "Home", new { i = 2 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Home, Garden & Tools", "SortStuff", "Home", new { i = 3 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Beauty, Health & Grocery", "SortStuff", "Home", new { i = 4 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Toys, Kids & Baby", "SortStuff", "Home", new { i = 5 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Clothing, Shoes & Jewelry", "SortStuff", "Home", new { i = 6 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Sport & Outdoors", "SortStuff", "Home", new { i = 7 }, new { @class = "btn btn-info" })</li>
+			<li class="pull-left">@Html.ActionLink("Automotive & Industrial", "SortStuff", "Home", new { i = 8 }, new { @class = "btn btn-info" })</li>
 		</ul>
 	</div>
 	<div class="allign-div">
 		@foreach (var item in Model)
 		{
-			<div class="border-lightgrey">
-				<div class="font-verdana">
+			<form class="border-lightgrey">
+				<div class="font-verdana form-group">
 					<h3 class="main-window">
 						@Html.DisplayFor(modelItem => item.Name)
 					</h3>
@@ -37,17 +37,21 @@
 					@Html.DisplayFor(modelItem => item.Description)
 				</div>
 				<div class="form-group">
-					<p>Price: </p>
-					@Html.DisplayFor(modelItem => item.Price)
+					<p>
+						Price:
+						@Html.DisplayFor(modelItem => item.Price)
+					</p>
 				</div>
 				<div class="form-group">
-					<p>Stock: </p>
-					@Html.DisplayFor(modelItem => item.Available)
+					<p>
+						Stock:
+						@Html.DisplayFor(modelItem => item.Available)
+					</p>
 				</div>
 				<div class="form-group">
-					@Html.ActionLink("Edit", "Edit", new { id = item.ID })
+					@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-default" })
 				</div>
-			</div>
+			</form>
 		}
 	</div>
 </div>
