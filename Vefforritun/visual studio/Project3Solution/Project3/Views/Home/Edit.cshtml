@@ -11,7 +11,7 @@
 {
 	@Html.AntiForgeryToken()
 
-	<form class="form-horizontal">
+	<div class="form-horizontal">
 		<h4>Product</h4>
 		<hr />
 		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -28,20 +28,33 @@
 		<div class="form-group">
 			@Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
-				@Html.TextAreaFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.TextAreaFor(model => model.Description,9 ,38 , new { htmlAttributes = new { @class = "form-control" } })
 				@Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
 			</div>
 		</div>
 																				@* Category *@
-		@*
+		
 		<div class="form-group">
 			@Html.LabelFor(model => model.Category, "Category", htmlAttributes: new { @class = "control-label col-md-2" })
 			<div class="col-md-10">
-				@Html.DropDownList("Category", null, htmlAttributes: new { @class = "form-control" })
-				@Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
-			</div>
+				@Html.DropDownListFor(model => model.Category,
+					new SelectList(new List<Object> {
+					new { value = 0 , text = "Books & Audible"  },
+					new { value = 1 , text = "Movies, Music & Games" },
+					new { value = 2 , text = "Electronics & Computers" },
+					new { value = 3 , text = "Home, Garden & Tools" },
+					new { value = 4 , text = "Beauty, Health & Grocery" },
+					new { value = 5 , text = "Toys, Kids & Baby" },
+					new { value = 6 , text = "Clothing, Shoes & Jewelry" },
+					new { value = 7 , text = "Sport & Outdoors" },
+					new { value = 8 , text = "Automotive & Industrial"}
+					}, "value",
+						"text",
+				   Model.Category
+					), new { @class = "form-control" })
+</div>
 		</div>
-		*@
+		
 																				@* Price *@
 		<div class="form-group">
 			@Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -69,7 +82,7 @@
 				<input type="submit" value="Save" class="btn btn-default" />
 			</div>
 		</div>
-	</form>
+	</div>
 }
 
 <div>

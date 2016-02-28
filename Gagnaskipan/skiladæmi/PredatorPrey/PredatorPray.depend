@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1456321132 source:c:\users\victor gressier\desktop\predatorprey\main.cpp
+	<iostream>
+	<ctime>
+	"World.h"
+
+1456325688 c:\users\victor gressier\desktop\predatorprey\world.h
+	"Organism.h"
+
+1456247475 c:\users\victor gressier\desktop\predatorprey\organism.h
+
+1456326124 source:c:\users\victor gressier\desktop\predatorprey\organism.cpp
+	<iostream>
+	"Organism.h"
+	"World.h"
+
+1456323723 source:c:\users\victor gressier\desktop\predatorprey\ant.cpp
+	"Ant.h"
+
+1456246038 c:\users\victor gressier\desktop\predatorprey\ant.h
+	"Organism.h"
+	"World.h"
+	<iostream>
+
+1456325108 source:c:\users\victor gressier\desktop\predatorprey\bug.cpp
+	"Bug.h"
+
+1456320014 c:\users\victor gressier\desktop\predatorprey\bug.h
+	"Organism.h"
+	"World.h"
+	<iostream>
+
+1456323939 source:c:\users\victor gressier\desktop\predatorprey\world.cpp
+	<iostream>
+	<cstdlib>
+	"World.h"
+	"Ant.h"
+	"Bug.h"
+

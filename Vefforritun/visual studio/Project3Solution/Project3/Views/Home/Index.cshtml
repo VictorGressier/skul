@@ -7,7 +7,7 @@
 	<div class="clearfix">
 		<h2 class="pull-left">
 			Products
-			@Html.ActionLink("Create New Product", "About", "Home", new { @class = "btn btn-primary" })
+			@Html.ActionLink("Create New Product", "Create", "Home", new { @class = "btn btn-primary" })
 		</h2>
 	</div>
 	<div class="menu-bar">
@@ -27,7 +27,7 @@
 	<div class="allign-div">
 		@foreach (var item in Model)
 		{
-			<form class="border-lightgrey">
+			<div class="border-lightgrey">
 				<div class="font-verdana form-group">
 					<h3 class="main-window">
 						@Html.DisplayFor(modelItem => item.Name)
@@ -51,7 +51,7 @@
 				<div class="form-group">
 					@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-default" })
 				</div>
-			</form>
+			</div>
 		}
 	</div>
 </div>

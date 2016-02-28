@@ -24,7 +24,7 @@ class Organism {
         // Flags this organism as moved or not.
         void setMoved(bool hasMoved);
 
-        // The character representation of this organism.
+        // The chasetMovedcharacter representation of this organism.
         virtual char representation() const = 0;
 
         // Has this organism moved in this time slot or not?

@@ -21,8 +21,11 @@ World::World(unsigned int seed)  // default constructor: creates and initializes
 
 World::~World() { // destructor
     // Deallocate memory allocated to organisms
-
-    /*** You have to implement this function ***/
+    for (int i = 0; i < WORLDSIZE; i++) {
+        for (int j = 0; j < WORLDSIZE; j++) {
+            delete grid[i][j];
+        }
+    }
 }
 
 // Return the organism at the given coordinates
@@ -94,7 +97,31 @@ Move World::randomMove() const {
 /********* Private functions *********/
 void World::createOrganisms(OrganismType orgType, int count) { // creates count organisms of type orgType
     // Randomly create count many organisms
+    int x, y;
+    bool done;
+    for(int i = 0; i < count ; i++)
+    {
+        do
+        {
+            done=false;
+            randomPosition(x,y);
+            if(getAt(x,y)==NULL)
+            {
+                if(orgType == ANT)
+                {
+                    new Ant(this, x, y);
+                    done=true;
+                }
+                else
+                {
+                    new Bug(this,x ,y);
+                    done=true;
+                }
+            }
 
+        }while(done==false);
+
+    }
     /*** You have to implement this function ***/
 }
 
@@ -104,15 +131,29 @@ void World::resetOrganisms() {  // Reset all organisms to not moved
 // looking for an organism to move . If one moves down, we don't want
 // to move it again when we reach it.
 
-    /*** You have to implement this function ***/
+    for (int j = 0; j < WORLDSIZE; j++) {
+        for (int i = 0; i < WORLDSIZE; i++)
+        {
+            if(grid[j][i] != NULL)
+                grid[j][i]->setMoved(false);
+        }
+    }
 
 }
-
+                                                                                                    //works 100%
 void World::moveOrganism(OrganismType aType) { // Move all organisms of type aType
     // Loop through cells in order and move if it's a organism of type aType
     // Make sure to only move an organism if it hasn't moved already and then mark it as moved
 
-    /*** You have to implement this function ***/
+    for (int j = 0; j < WORLDSIZE; j++) {
+        for (int i = 0; i < WORLDSIZE; i++)
+        {
+            if(grid[j][i] != NULL && grid[j][i]->getType()==aType && grid[j][i]->hasMoved()==false)
+            {
+                grid[j][i]->move();
+            }
+        }
+    }
 
 }
 
@@ -134,6 +175,15 @@ void World::breedOrganisms() { // Make the organisms breed
     // Only breed organisms that have moved, since
     // breeding places new organisms on the map we
     // don't want to try and breed those
+    for (int i = 0; i < WORLDSIZE; i++) {
+        for (int j = 0; j < WORLDSIZE; j++) {
+            if(grid[i][j] != NULL && (grid[i][j]->getType() == ANT || grid[i][j]->getType() == BUG))
+            {
+                grid[i][j]->breed();
+            }
+        }
+    }
+
 
     /*** You have to implement this function ***/
 

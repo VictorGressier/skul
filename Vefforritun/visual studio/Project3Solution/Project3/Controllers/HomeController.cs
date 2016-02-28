@@ -66,5 +66,52 @@ namespace Project3.Controllers
 			ViewBag.StuffID = new SelectList(db.Items, "ID", "Name", theStuff.ID);
 			return View(theStuff);
 		}
+
+		[HttpPost]
+		public ActionResult Edit(Stuff product)
+		{
+			if (ModelState.IsValid)
+			{
+
+				Stuff prod = (from item in db.Items
+							  where item.ID == product.ID
+							  select item).SingleOrDefault();
+
+
+				prod.Name = product.Name;
+				prod.Description = product.Description;
+				prod.Category = product.Category;
+				prod.Available = product.Available;
+				prod.Price = product.Price;
+
+
+				db.SaveChanges();
+
+				return RedirectToAction("Index");
+
+			}
+
+			return View("Index");
+		}
+
+		public ActionResult Create()
+		{
+			ViewBag.StuffID = new SelectList(db.Items, "ID", "Name");
+			return View();
+		}
+
+		[HttpPost]
+		public ActionResult Create(Stuff product)
+		{
+			if (ModelState.IsValid)
+			{
+				db.Items.Add(product);
+				db.SaveChanges();
+				return RedirectToAction("Index");
+			}
+
+			ViewBag.StuffID = new SelectList(db.Items, "ID", "Name", product.ID);
+			return View(product);
+		}
 	}
 }

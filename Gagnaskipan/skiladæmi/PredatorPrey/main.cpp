@@ -16,6 +16,7 @@ int main()
         myWorld.simulateOneStep();
         myWorld.display();
         cin.get(ch);
+        cin.ignore();
     }
 
     return 0;
