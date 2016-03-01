@@ -1,0 +1,65 @@
+HTML Glærur
+
+Link
+	<a href="http://www.ru.is">Reykjavik University</a>"
+		target="_blank" --> opnar í nýju tab.
+	
+Image
+	<img src="http://www.example.com/image.jpg" alt="this is a picture of a car" />
+												ef myndin byrtist ekki lika gott info. mikilvækt.
+									
+			
+Listar
+	<ul>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<ol>
+		<li></li>
+		<li></li>
+	</ol>
+
+
+Töflur
+	<table border="1" style="width=100%">
+		<caption>Lýsing töflu</caption> //mikilvægt, hægt að fela seinna
+		<thead>							//hausinn á töflunni
+			<th>Name</th>				//th = table head
+			<th>Age</th>
+		</thead>
+		<tbody>							//body töflunnar
+			<tr>						//tr = table row
+				<td>Victor</td>			//td = table data
+				<td>22</td>	
+			</tr>
+			<tr>
+				<td>Palli</td>  
+				<td>50</td>	
+			</tr>
+		</tbody>
+	</table>
+	
+	
+Valmöguleikar (bls 10)
+		<form action="http://www.ru.is/leit" method="GET">
+			<label for="this">Leitarorð</label>		//for, til að velja id
+			<input type="text" id="this" /> 		//id og for tengjast
+			
+			<input type="submit" value="Leita">		//submit takki sem stendur leita á
+		</form>
+		
+		/* fleiri input típur
+		<input type="password"> 	//sýnir ekki textann skrifaðann
+		<input type="button">  		//takki sem þarf að kóða response
+		<input type="reset">		//resettar form i default value
+		<input type="checkbox">
+		<input type="radio">
+		
+<label for="gender">Gender</label>
+<input type="radio" name="gender" value="Male">
+<input type="radio" name="gender" value="Female">
+		
+		
+		
+		
