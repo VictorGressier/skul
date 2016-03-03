@@ -99,17 +99,19 @@ namespace QueryApp
 			Console.WriteLine(result4);
 
 			// e)
-			var result5 = (from item in GetProducts()
-	//					   where item.Name[0] == 'G'
-	//					   orderby item.Name ascending
-						   join cat in GetCategories() 
-						   on item equals  into 
-						   select item);
+			var result5 = from item in GetProducts()
+						  orderby item.Name ascending
+						  join cat in GetCategories() on item.CategoryID equals cat.ID
+						  where item.Name[0] == 'G' && cat.Name == "Beverages"
+						  select item;
+			
+
 
 			foreach (var item in result5)
 			{
 				Console.Write(item + ", ");
-			}			
+			}
+			
 
 
 			Console.ReadKey();
