@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1457995858 source:c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\linkedlistiterator\linkedlist.cpp
+	"LinkedList.h"
+
+1457994661 c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\linkedlistiterator\linkedlist.h
+	<iostream>
+
+1457994375 source:c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\linkedlistiterator\main.cpp
+	<iostream>
+	"LinkedList.cpp"
+
+1457995858 c:\users\victorjakob\desktop\gagnaskipan-git\2016-t-201-gski\verkefni\linkedlistiterator\linkedlist.cpp
+	"LinkedList.h"
+

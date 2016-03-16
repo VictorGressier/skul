@@ -1,0 +1,54 @@
+<!DOCTYPE HTML">
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<title>Lab 6 - Java - jQuery</title>
+		<style>
+			.latest{
+				background-color:grey;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="" onclick="alert('Hello World!')">Hi.</a>
+		<div style="padding-bottom:30px">
+			<p id="loremipsumhide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+			<button type="button" id="hide">Hide Text</button>
+		</div>
+		<form>
+			<p>Type two numbers below.</p>
+			<input type="text" id="c1"/>
+			<input type="text" id="c2"/>
+			<input type="button" value="Calculate Sum" onclick="calc();">
+			<input type="text" style="display:none" id="total"/>
+		</form>
+		<div class="news">This should</div>
+		<div class="news">be</div>
+		<div class="news">Grey!!</div>
+		
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(".news").addClass("latest");
+			})
+			
+			var button = document.getElementById("hide");
+			button.onclick = function(){
+				document.getElementById("loremipsumhide").style="display:none";
+			}
+			
+			function calc(){
+				var a = document.getElementById("c1").value;
+				var b = document.getElementById("c2").value;
+				var c = calculate(a,b);
+				document.getElementById("total").style="display:inline"
+				document.getElementById("total").value = c;
+				}
+			
+			function calculate(one, two){
+				return parseInt(one) + parseInt(two);
+			}
+		</script>
+	</body>
+</html>
