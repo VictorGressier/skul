@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1458161756 source:c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\books\book.cpp
+	"book.h"
+
+1458158564 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\books\book.h
+	<iostream>
+	<string>
+
+1458161476 source:c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\books\main.cpp
+	<vector>
+	<algorithm>
+	"book.h"
+
