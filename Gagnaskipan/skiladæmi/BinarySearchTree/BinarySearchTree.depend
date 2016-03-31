@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1457376027 source:c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarytree.cpp
+	<iostream>
+	<algorithm>
+	"binarytree.h"
+
+1457366854 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarytree.h
+	"binarynode.h"
+
+1457366712 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarynode.h
+	<cstdlib>
+
+1457375138 source:c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\main.cpp
+	<iostream>
+	"binarysearchtree.cpp"
+
+1457376552 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarysearchtree.cpp
+	"binarysearchtree.h"
+	"binarytree.cpp"
+
+1457375918 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarysearchtree.h
+	"binarytree.h"
+
+1457376027 c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarytree.cpp
+	<iostream>
+	<algorithm>
+	"binarytree.h"
+
+1457376443 source:c:\users\victor gressier\desktop\gitskoli\skul\gagnaskipan\skiladæmi\binarysearchtree\binarysearchtree.cpp
+	"binarysearchtree.h"
+	"binarytree.cpp"
+
