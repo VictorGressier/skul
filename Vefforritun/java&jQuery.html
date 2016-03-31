@@ -6,18 +6,26 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<title>Lab 6 - Java - jQuery</title>
 		<style>
-			.latest{
+			.latest {
 				background-color:grey;
+			}
+			
+			.space {
+				margin-bottom:30px;
+				margin-top:30px;
+				width:1028px;
 			}
 		</style>
 	</head>
-	<body>
-		<a href="" onclick="alert('Hello World!')">Hi.</a>
-		<div style="padding-bottom:30px">
+	<body class="space">
+		<div id="helloworld">
+			<a style="color:blue; text-decoration:underline;"  onclick="greetings();">Hello there, Press me as often as u want!!</a>
+		</div>
+		<div class="space">
 			<p id="loremipsumhide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
 			<button type="button" id="hide">Hide Text</button>
 		</div>
-		<form>
+		<form class="space">
 			<p>Type two numbers below.</p>
 			<input type="text" id="c1"/>
 			<input type="text" id="c2"/>
@@ -27,11 +35,18 @@
 		<div class="news">This should</div>
 		<div class="news">be</div>
 		<div class="news">Grey!!</div>
+		<div class="space">
+			<p>Date: <input type="text" id="datepicker" /></p>
+		</div>
 		
 		<script type="text/javascript">
 			$(document).ready(function () {
 				$(".news").addClass("latest");
 			})
+			
+			function greetings(){
+				$("#helloworld").append("<p>Hello World!</p>");
+			}
 			
 			var button = document.getElementById("hide");
 			button.onclick = function(){
@@ -49,6 +64,10 @@
 			function calculate(one, two){
 				return parseInt(one) + parseInt(two);
 			}
+			
+			$(function() {
+				$( "#datepicker" ).datepicker();
+			});
 		</script>
 	</body>
 </html>
